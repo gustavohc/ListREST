@@ -6,20 +6,21 @@ import javax.persistence.Persistence;
 
 /**
  * Created with IntelliJ IDEA.
- * User: gu
+ * UserList: gu
  * Date: 3/13/13
  * Time: 11:10 AM
  * To change this template use File | Settings | File Templates.
  */
 public class EMF {
 
-    private EntityManagerFactory factory;
-    private EntityManager manager;
+    private EntityManagerFactory factory = builtEntityManagerFactory();
+    private EntityManager manager = null;
     private EntityManagerFactory builtEntityManagerFactory(){
-        if(factory==null)
+        if(factory==null){
             return Persistence.createEntityManagerFactory("ListREST");
-        else
+        }else{
             return factory;
+        }
     }
 
     public EntityManager getManager(){

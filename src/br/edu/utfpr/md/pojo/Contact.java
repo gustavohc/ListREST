@@ -1,24 +1,33 @@
 package br.edu.utfpr.md.pojo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created with IntelliJ IDEA.
- * User: gu
+ * UserList: gu
  * Date: 3/11/13
  * Time: 4:46 PM
  * To change this template use File | Settings | File Templates.
  */
+@XmlRootElement
+@Entity
 public class Contact {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
     private String phone;
     private String email;
     private String endereco;
 
+
     public Contact() {}
 
-    public Contact(long id, String name, String phone, String email, String endereco) {
-        this.id = id;
+    public Contact(String name, String phone, String email, String endereco) {
         this.name = name;
         this.phone = phone;
         this.email = email;
@@ -64,6 +73,7 @@ public class Contact {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
 
     @Override
     public boolean equals(Object o) {
