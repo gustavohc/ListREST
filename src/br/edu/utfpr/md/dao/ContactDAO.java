@@ -54,4 +54,10 @@ public class ContactDAO extends EMF{
         Query query = manager.createQuery("select c from Contact c");
         return query.getResultList();
     }
+
+    public void delete(Contact contact){
+        manager.getTransaction().begin();
+        manager.remove(contact);
+        manager.getTransaction().commit();
+    }
 }

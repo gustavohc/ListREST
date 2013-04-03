@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlRootElement;
 
+
 /**
  * Created with IntelliJ IDEA.
  * UserList: gu
@@ -13,6 +14,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Time: 4:46 PM
  * To change this template use File | Settings | File Templates.
  */
+
 @XmlRootElement
 @Entity
 public class Contact {

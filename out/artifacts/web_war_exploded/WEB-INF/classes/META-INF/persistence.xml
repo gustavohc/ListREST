@@ -3,7 +3,6 @@
 
     <persistence-unit name="ListREST" transaction-type="RESOURCE_LOCAL">
         <class>br.edu.utfpr.md.pojo.Contact</class>
-        <class>br.edu.utfpr.md.pojo.UserList</class>
         <properties>
             <property name="javax.persistence.target-database" value="PostgreSQL"/>
             <property name="javax.persistence.logging.level" value="INFO"/>
@@ -11,7 +10,7 @@
             <property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost:5432/agenda"/>
             <property name="eclipselink.jdbc.user" value="postgres"/>
             <property name="eclipselink.jdbc.password" value="semnocao"/>
-            <property name="eclipselink.ddl-generation" value="create-tables" />
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
         </properties>
     </persistence-unit>
 </persistence>

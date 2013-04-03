@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="asm-3.1">
+    <CLASSES>
+      <root url="jar://D:/Pro/Pacote java/Jersey/asm-3.1.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/cglib-nodep-2.2.3.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/commons-lang3-3.1.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/commons-logging-1.1.1.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jersey-apache-client-1.17.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jersey-client-1.17.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jersey-core-1.17.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jersey-json-1.17.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jersey-server-1.17.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jersey-servlet-1.17.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jersey-spring-1.17.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Jersey/jsr311-api-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

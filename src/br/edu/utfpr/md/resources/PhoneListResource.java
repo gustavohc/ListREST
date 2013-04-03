@@ -30,9 +30,14 @@ public class PhoneListResource {
     Request request;
 
     private ContactDAO dao = new ContactDAO();
+    private Contact contact;
+
+    public void fillsContact(String id){
+        contact = dao.getContact(Long.parseLong(id));
+    }
 
     @GET
-    @Produces({MediaType.APPLICATION_XML})
+    @Produces("application/xml")
     public List<Contact> getContacts(){
         return new ArrayList<Contact>(dao.findAll());
     }
@@ -48,5 +53,10 @@ public class PhoneListResource {
     @Path("{contact}")
     public ContactResource getContact(@PathParam("contact") long id){
         return new ContactResource(uriInfo, request,id);
+    }
+
+    public String delete(){
+        dao.delete(contact);
+        return "deletado!";
     }
 }

@@ -10,7 +10,7 @@
             <property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost:5432/agenda"/>
             <property name="eclipselink.jdbc.user" value="postgres"/>
             <property name="eclipselink.jdbc.password" value="semnocao"/>
-            <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
         </properties>
     </persistence-unit>
 </persistence>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="spring-security-aspects-3.1.0.RC2">
+    <CLASSES>
+      <root url="jar://D:/Pro/Pacote java/Spring Security/spring-security-aspects-3.1.0.RC2.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Spring Security/spring-security-config-3.1.0.RC2.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Spring Security/spring-security-core-3.1.0.RC2.jar!/" />
+      <root url="jar://D:/Pro/Pacote java/Spring Security/spring-security-web-3.1.0.RC2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
